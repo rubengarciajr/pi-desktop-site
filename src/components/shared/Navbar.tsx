@@ -10,6 +10,7 @@ const navLinks = [
   { label: "Features", href: "#features" },
   { label: "Demo", href: "#demo" },
   { label: "Extensions", href: "#extensions" },
+  { label: "Changelog", href: "#changelog" },
 ];
 
 export function Navbar() {

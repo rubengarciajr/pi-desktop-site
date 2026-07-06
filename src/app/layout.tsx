@@ -17,7 +17,7 @@ const spaceMono = Space_Mono({
 export const metadata: Metadata = {
   title: "Pi Desktop — The Native Coding Agent for macOS",
   description:
-    "A polished desktop GUI for the Pi coding agent. Multi-tab sessions, streaming chat, extensions, custom models, and GitHub integration. No CLI required.",
+    "A polished, open-source desktop GUI for the Pi coding agent. Launches straight into chat with multi-tab sessions, convert-to-code, built-in web search, custom models, and GitHub integration. No CLI, no Node.js, no setup.",
   keywords: [
     "Pi Desktop",
     "coding agent",
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Pi Desktop — The Native Coding Agent for macOS",
     description:
-      "Multi-tab AI sessions, streaming chat, extensions, custom models, and GitHub integration. Built with Electron, React, and the Pi SDK.",
+      "Open source and native to macOS. Launches into chat, converts any conversation to a full project session, with built-in web search, multi-tab sessions, custom models, and GitHub integration.",
     type: "website",
     url: "https://pi-desktop.dev",
   },
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Pi Desktop — The Native Coding Agent for macOS",
     description:
-      "Multi-tab AI sessions, streaming chat, extensions, custom models, and GitHub integration.",
+      "Open source, native to macOS. Launches into chat, converts to code, built-in web search, multi-tab sessions, and GitHub integration.",
   },
 };
 

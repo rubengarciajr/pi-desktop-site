@@ -131,13 +131,13 @@ function SessionsMockup() {
       <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
         {[
           {
-            model: "Claude Sonnet 4",
+            model: "Claude Sonnet 5",
             cwd: "~/projects/app",
             tokens: "12.4k",
             cost: "$0.08",
           },
           {
-            model: "GPT-4o",
+            model: "GPT-5.5",
             cwd: "~/projects/api",
             tokens: "8.2k",
             cost: "$0.12",

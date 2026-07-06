@@ -8,56 +8,83 @@ import {
   Palette,
   GitBranch,
   Cpu,
+  Zap,
+  Globe,
+  Infinity as InfinityIcon,
 } from "lucide-react";
 
 const features = [
   {
-    icon: Columns3,
-    title: "Multi-Tab Sessions",
+    icon: MessageSquare,
+    title: "Launches into Chat",
     description:
-      "Run multiple independent AI sessions simultaneously. Each tab has its own working directory, model, and context — like browser tabs for coding.",
+      "Open the app and start typing — no folder picker, no setup. A Chat / Code toggle switches to full project sessions the moment you need them.",
     bg: "bg-[#14b8a6]/10",
     iconColor: "text-[#5eead4]",
   },
   {
-    icon: MessageSquare,
-    title: "Streaming Chat",
+    icon: Zap,
+    title: "Convert to Code",
     description:
-      "Real-time streaming responses with markdown rendering, syntax-highlighted code blocks, diff viewers, and smart auto-scroll.",
+      "Turn any conversation into a real project session. Pick a folder and the whole chat is carried forward as context — nothing lost.",
     bg: "bg-[#f9f4eb]/[0.04]",
     iconColor: "text-[#d6d1c9]",
   },
   {
-    icon: Puzzle,
-    title: "Extensions & Skills",
+    icon: Columns3,
+    title: "Multi-Tab Sessions",
     description:
-      "Browse, install, and manage Pi packages from npm. Memory, subagents, plan mode, web access — one click to install.",
+      "Run many isolated agent sessions at once, like browser tabs. Each keeps its own model, working folder, history, and context.",
+    bg: "bg-[#14b8a6]/10",
+    iconColor: "text-[#5eead4]",
+  },
+  {
+    icon: Globe,
+    title: "Web Search Built In",
+    description:
+      "Flip on web search mid-conversation with zero config. Add your own Exa, Perplexity, or Gemini keys for more power.",
+    bg: "bg-[#f9f4eb]/[0.04]",
+    iconColor: "text-[#d6d1c9]",
+  },
+  {
+    icon: InfinityIcon,
+    title: "Never Overflows",
+    description:
+      "Per-session auto-compaction summarizes old context before it hits the limit. A live usage meter shows exactly where you stand.",
     bg: "bg-[#14b8a6]/10",
     iconColor: "text-[#5eead4]",
   },
   {
     icon: Cpu,
-    title: "Custom Models",
+    title: "Bring Any Model",
     description:
-      "Bring your own API keys. Quick presets for Claude, GPT, GLM, MiMo, Grok, and more. Per-tab model switching with thinking level control.",
+      "Presets for Claude, GPT/Codex, GLM, MiniMax, MiMo, and Grok — plus your own. Per-tab switching with thinking-level control.",
     bg: "bg-[#f9f4eb]/[0.04]",
     iconColor: "text-[#d6d1c9]",
-  },
-  {
-    icon: Palette,
-    title: "Theme System",
-    description:
-      "System, dark, and light modes with 7 accent color presets. Native macOS vibrancy with under-window blur effects.",
-    bg: "bg-[#14b8a6]/10",
-    iconColor: "text-[#5eead4]",
   },
   {
     icon: GitBranch,
     title: "GitHub Integration",
     description:
-      "Secure PAT authentication, create repos, push/pull with visual sync status. Encrypted at rest with Electron safeStorage.",
+      "Create or attach repos and push/pull with visual sync status — plus a badge that glows the moment a session has unpushed changes.",
+    bg: "bg-[#14b8a6]/10",
+    iconColor: "text-[#5eead4]",
+  },
+  {
+    icon: Puzzle,
+    title: "Extensions & Skills",
+    description:
+      "Browse, install, and remove Pi packages right in the app. Memory, subagents, plan mode, web access — one click each.",
     bg: "bg-[#f9f4eb]/[0.04]",
     iconColor: "text-[#d6d1c9]",
+  },
+  {
+    icon: Palette,
+    title: "Private & Native",
+    description:
+      "Native macOS vibrancy, System / Dark / Light themes, and seven accents. Keys and tokens encrypted at rest in the macOS keychain.",
+    bg: "bg-[#14b8a6]/10",
+    iconColor: "text-[#5eead4]",
   },
 ];
 

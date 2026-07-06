@@ -54,7 +54,7 @@ export function Hero() {
             variant="outline"
             className="border-[#14b8a6]/30 bg-[#14b8a6]/10 text-[#5eead4] px-4 py-1.5 text-xs font-medium mb-8"
           >
-            v0.2.8 — Now with Package Management
+            v0.3.2 — Now open source 🎉
           </Badge>
         </motion.div>
 
@@ -87,9 +87,9 @@ export function Hero() {
           transition={{ duration: 0.6, delay: 0.2 }}
           className="text-lg sm:text-xl text-[#a8a39a] max-w-2xl mx-auto mb-10 leading-relaxed font-mono"
         >
-          A full-featured desktop client for the{" "}
-          <span className="text-[#d6d1c9]">Pi coding agent</span>. Pick a working
-          folder, start a session, and let it code.
+          A polished, multi-tab desktop GUI for the{" "}
+          <span className="text-[#d6d1c9]">Pi coding agent</span>. Open it and
+          start typing — no terminal, no Node.js, no setup.
         </motion.p>
 
         {/* CTA buttons */}
