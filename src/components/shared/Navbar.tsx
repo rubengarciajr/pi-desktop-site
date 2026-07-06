@@ -31,7 +31,7 @@ export function Navbar() {
       className="fixed top-4 left-1/2 -translate-x-1/2 z-50 w-[calc(100%-2rem)] max-w-2xl"
     >
       <nav
-        className={`relative flex flex-col border transition-all duration-300 overflow-hidden ${
+        className={`relative flex flex-col border transition duration-300 overflow-hidden ${
           mobileOpen ? "rounded-2xl" : "rounded-full"
         } ${
           scrolled
