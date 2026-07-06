@@ -148,8 +148,8 @@ export function Hero() {
             <Image
               src="/app-starting-screen.png"
               alt="Pi Desktop starting screen"
-              width={1223}
-              height={855}
+              width={1268}
+              height={848}
               className="w-full h-auto"
               priority
             />
