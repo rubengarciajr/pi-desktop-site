@@ -5,8 +5,10 @@ import { motion, useScroll, useTransform, useSpring } from "framer-motion";
 import { Marquee } from "@/components/shared/Marquee";
 
 const items = [
+  "Launches into Chat",
+  "Convert to Code",
   "Multi-Tab Sessions",
-  "Streaming Chat",
+  "Web Search",
   "GitHub Integration",
   "Custom Models",
   "Extensions",

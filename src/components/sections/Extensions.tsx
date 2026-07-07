@@ -69,7 +69,7 @@ const extensions = [
 
 export function Extensions() {
   return (
-    <section id="extensions" className="relative py-28 bg-[#1a1c1c]">
+    <section id="extensions" className="relative overflow-hidden py-28 bg-[#1a1c1c]">
       {/* Background glow */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[400px] bg-[#14b8a6]/5 rounded-full blur-[100px] pointer-events-none" />
 

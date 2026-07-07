@@ -8,7 +8,7 @@ const footerLinks = {
     { label: "Features", href: "#features" },
     { label: "Extensions", href: "#extensions" },
     { label: "Download", href: "https://github.com/rubengarciajr/pi-desktop/releases/latest" },
-    { label: "Changelog", href: "https://github.com/rubengarciajr/pi-desktop/releases" },
+    { label: "Changelog", href: "#changelog" },
   ],
   Resources: [
     { label: "Documentation", href: "https://pi.dev" },

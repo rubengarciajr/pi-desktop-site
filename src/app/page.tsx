@@ -6,6 +6,7 @@ import { SocialProof } from "@/components/sections/SocialProof";
 import { Features } from "@/components/sections/Features";
 import { AppShowcase } from "@/components/sections/AppShowcase";
 import { Extensions } from "@/components/sections/Extensions";
+import { Changelog } from "@/components/sections/Changelog";
 import { CTA } from "@/components/sections/CTA";
 
 export default function Home() {
@@ -19,6 +20,7 @@ export default function Home() {
         <Features />
         <AppShowcase />
         <Extensions />
+        <Changelog />
         <CTA />
       </main>
       <Footer />

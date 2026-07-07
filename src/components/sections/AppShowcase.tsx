@@ -131,13 +131,13 @@ function SessionsMockup() {
       <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
         {[
           {
-            model: "Claude Sonnet 4",
+            model: "Claude Sonnet 5",
             cwd: "~/projects/app",
             tokens: "12.4k",
             cost: "$0.08",
           },
           {
-            model: "GPT-4o",
+            model: "GPT-5.5",
             cwd: "~/projects/api",
             tokens: "8.2k",
             cost: "$0.12",
@@ -272,15 +272,15 @@ export function AppShowcase() {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="flex justify-center mb-10"
+          className="mb-10 overflow-x-auto"
         >
-          <Tabs value={activeTab} onValueChange={setActiveTab}>
+          <Tabs value={activeTab} onValueChange={setActiveTab} className="w-fit mx-auto">
             <TabsList className="bg-[#f9f4eb]/[0.04] border border-[#f9f4eb]/[0.06] p-1 h-auto rounded-full">
               {showcases.map((s) => (
                 <TabsTrigger
                   key={s.id}
                   value={s.id}
-                  className="px-5 py-2.5 text-sm data-[state=active]:bg-[#14b8a6]/20 data-[state=active]:text-[#5eead4] data-[state=active]:shadow-none rounded-full text-[#a8a39a]"
+                  className="px-3 py-2 text-xs sm:px-5 sm:py-2.5 sm:text-sm whitespace-nowrap data-[state=active]:bg-[#14b8a6]/20 data-[state=active]:text-[#5eead4] data-[state=active]:shadow-none rounded-full text-[#a8a39a]"
                 >
                   {s.label}
                 </TabsTrigger>
