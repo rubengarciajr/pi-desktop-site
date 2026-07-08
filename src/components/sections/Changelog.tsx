@@ -12,9 +12,61 @@ type Release = {
 
 const releases: Release[] = [
   {
+    version: "v0.4.0",
+    date: "July 8, 2026",
+    latest: true,
+    highlights: [
+      "🧠 Pi Routing (Mixture of Agents) — a Pi Desktop exclusive: assemble a team of models (Claude, GPT, GLM, Grok…) that answer each prompt in parallel, then synthesize their insights into a briefing the main model builds on.",
+      "Basic mode runs a single synthesis pass; Advanced mode scores each member 0–10 and auto-re-queries weak responses across up to 5 layers. Toggle it from the new Pi Routing button in the chat toolbar.",
+    ],
+  },
+  {
+    version: "v0.3.8",
+    date: "July 8, 2026",
+    highlights: [
+      "Redesigned Sessions panel: sessions are now bordered cards, with the active session highlighted by an accent border, glow ring, and “current” label.",
+      "The panel is now clearly separated from the chat area, and your working folder is marked in accent color in the header and favorites.",
+    ],
+  },
+  {
+    version: "v0.3.7",
+    date: "July 7, 2026",
+    highlights: [
+      "Interactive file paths: click any file path in a message, tool call, or command output to reveal it in Finder or copy its full, relative, or file name.",
+    ],
+  },
+  {
+    version: "v0.3.6",
+    date: "July 7, 2026",
+    highlights: [
+      "Conversations now open scrolled to the newest message instead of jumping back to the oldest.",
+    ],
+  },
+  {
+    version: "v0.3.5",
+    date: "July 7, 2026",
+    highlights: [
+      "Favorited folders now persist across restarts and updates — saved to a file in the app’s data folder instead of browser storage, with existing favorites migrated automatically.",
+    ],
+  },
+  {
+    version: "v0.3.4",
+    date: "July 7, 2026",
+    highlights: [
+      "One tab per folder: reopening an already-open folder jumps to its existing tab instead of a duplicate — across Sessions, favorites, the + button, drag-and-drop, the sidebar, and the macOS New Session menu.",
+      "The working-folder path at the top of a chat is now clickable — click it to reveal the folder in Finder.",
+    ],
+  },
+  {
+    version: "v0.3.3",
+    date: "July 6, 2026",
+    highlights: [
+      "Fixed crash-on-launch on Apple Silicon: the in-app updater now clears the macOS quarantine flag from the downloaded DMG so the updated app opens cleanly past Gatekeeper.",
+    ],
+  },
+  {
     version: "v0.3.2",
     date: "July 6, 2026",
-    latest: true,
     highlights: [
       "“Start Chatting” reuses the current tab instead of opening a duplicate, and focuses the prompt immediately.",
       "Glowing input border now appears reliably on every empty chat — no app restart needed.",
