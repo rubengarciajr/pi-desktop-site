@@ -12,9 +12,17 @@ type Release = {
 
 const releases: Release[] = [
   {
-    version: "v0.4.0",
+    version: "v0.4.1",
     date: "July 8, 2026",
     latest: true,
+    highlights: [
+      "Connect a local model in two clicks: a new Local preset in Add Model fills in a localhost template for Ollama, LM Studio, or llama.cpp — no need to remember the endpoint.",
+      "A Test connection button pings your local server before you save, confirming it’s reachable and your chosen model is available.",
+    ],
+  },
+  {
+    version: "v0.4.0",
+    date: "July 8, 2026",
     highlights: [
       "🧠 Pi Routing (Mixture of Agents) — a Pi Desktop exclusive: assemble a team of models (Claude, GPT, GLM, Grok…) that answer each prompt in parallel, then synthesize their insights into a briefing the main model builds on.",
       "Basic mode runs a single synthesis pass; Advanced mode scores each member 0–10 and auto-re-queries weak responses across up to 5 layers. Toggle it from the new Pi Routing button in the chat toolbar.",
