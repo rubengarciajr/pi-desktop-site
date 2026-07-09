@@ -12,9 +12,67 @@ type Release = {
 
 const releases: Release[] = [
   {
+    version: "v0.5.0",
+    date: "July 9, 2026",
+    latest: true,
+    highlights: [
+      "🔗 Tag Team (Sequential Model Relay) — the opposite of Mixture of Agents: models work in sequence, each one tagging the next in a fresh tab to build on the previous model’s work automatically, guided by custom handoff prompts.",
+      "Build multi-stage teams (e.g. build → review → finalize) in the new Tag Team sidebar panel, with TAG badges in the tab bar marking relay handoffs. The Pi Routing toggle now shows the active team’s name.",
+    ],
+  },
+  {
+    version: "v0.4.8",
+    date: "July 9, 2026",
+    highlights: [
+      "Pi Routing (Mixture of Agents) now works — fixed a packaging bug that stopped the engine from loading, so team fan-out, aggregation, and the score-and-re-query loop all run.",
+      "Test a team against your in-progress draft before saving, and each member row shows a colored provider badge the moment you pick a model.",
+    ],
+  },
+  {
+    version: "v0.4.7",
+    date: "July 8, 2026",
+    highlights: [
+      "Custom-model fixes now apply to all your models automatically on launch, and editing a model’s API key takes effect immediately — no restart.",
+    ],
+  },
+  {
+    version: "v0.4.6",
+    date: "July 8, 2026",
+    highlights: [
+      "Fixed a “No API key” error when selecting a newly added local model — it now works right away, with no restart.",
+    ],
+  },
+  {
+    version: "v0.4.5",
+    date: "July 8, 2026",
+    highlights: [
+      "Fixed local models staying hidden from the switcher — local servers now get a harmless placeholder key automatically, so they appear immediately.",
+    ],
+  },
+  {
+    version: "v0.4.4",
+    date: "July 8, 2026",
+    highlights: [
+      "Models you add, edit, or remove now appear in the model switcher (⌘M) instantly — no new tab or restart needed.",
+    ],
+  },
+  {
+    version: "v0.4.3",
+    date: "July 8, 2026",
+    highlights: [
+      "Test connection now lists a local server’s available models as clickable chips — click one to fill in the Model ID.",
+    ],
+  },
+  {
+    version: "v0.4.2",
+    date: "July 8, 2026",
+    highlights: [
+      "Edit any custom model in place instead of removing and re-adding it — leave the API key blank to keep the current one.",
+    ],
+  },
+  {
     version: "v0.4.1",
     date: "July 8, 2026",
-    latest: true,
     highlights: [
       "Connect a local model in two clicks: a new Local preset in Add Model fills in a localhost template for Ollama, LM Studio, or llama.cpp — no need to remember the endpoint.",
       "A Test connection button pings your local server before you save, confirming it’s reachable and your chosen model is available.",
