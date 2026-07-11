@@ -12,9 +12,39 @@ type Release = {
 
 const releases: Release[] = [
   {
-    version: "v0.5.0",
+    version: "v0.5.4",
     date: "July 9, 2026",
     latest: true,
+    highlights: [
+      "New Codex models — GPT-5.6 Luna, Sol, and Terra — are available with your ChatGPT sign-in (via Pi SDK 0.80.5), and Claude Sonnet 5 joins the GitHub Copilot catalog.",
+      "Long Codex sessions stay connected: connections rotate before the backend’s 60-minute limit, and the Copilot device-code sign-in no longer appears to hang.",
+    ],
+  },
+  {
+    version: "v0.5.3",
+    date: "July 9, 2026",
+    highlights: [
+      "Open in external editor: a prompt-bar button opens your draft in the editor of your choice (e.g. VS Code with `code --wait`), waits while you edit, then pulls the result back in — in both chat and code sessions.",
+      "New models pull in the moment you connect (no restart), a Compact / Comfortable / Spacious message-spacing control lands in Settings → Appearance, and tab titles update live when a session is renamed.",
+    ],
+  },
+  {
+    version: "v0.5.2",
+    date: "July 9, 2026",
+    highlights: [
+      "Pi Routing and Tag Team toggles now show just their icon until a team is active, and both are available in code sessions — not only chat.",
+    ],
+  },
+  {
+    version: "v0.5.1",
+    date: "July 9, 2026",
+    highlights: [
+      "Tag Team gets its own collaboration icon everywhere it appears — the sidebar, chat toolbar, handoff tabs, and Tag Team panel.",
+    ],
+  },
+  {
+    version: "v0.5.0",
+    date: "July 9, 2026",
     highlights: [
       "🔗 Tag Team (Sequential Model Relay) — the opposite of Mixture of Agents: models work in sequence, each one tagging the next in a fresh tab to build on the previous model’s work automatically, guided by custom handoff prompts.",
       "Build multi-stage teams (e.g. build → review → finalize) in the new Tag Team sidebar panel, with TAG badges in the tab bar marking relay handoffs. The Pi Routing toggle now shows the active team’s name.",
