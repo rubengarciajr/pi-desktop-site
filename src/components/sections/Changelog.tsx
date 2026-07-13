@@ -12,9 +12,40 @@ type Release = {
 
 const releases: Release[] = [
   {
+    version: "v0.5.8",
+    date: "July 13, 2026",
+    latest: true,
+    highlights: [
+      "Pi Routing report card: after every run, a collapsible card shows each team member’s full response, confidence score, and the synthesized briefing — full transparency into what your multi-agent team contributed.",
+      "Real-time per-agent progress (“2/3 models responded”), plus a branded status-bar indicator and a pulsing tab icon so you can spot which tab is running multi-agent work.",
+    ],
+  },
+  {
+    version: "v0.5.7",
+    date: "July 13, 2026",
+    highlights: [
+      "Mixture of Agents (Pi Routing) is now a top-level sidebar item, right below Tag Team — both multi-model features side by side instead of buried in Settings.",
+    ],
+  },
+  {
+    version: "v0.5.6",
+    date: "July 13, 2026",
+    highlights: [
+      "Pi Routing (Mixture of Agents) now works in the packaged app — fixed an asar bundling issue that stopped the engine from loading, so MOA and Tag Team both run in the installed DMG.",
+      "Streaming freeze fix: the UI can no longer get stuck on “Thinking…” after a model finishes — streaming now resets on three independent signals plus a 30-second watchdog.",
+    ],
+  },
+  {
+    version: "v0.5.5",
+    date: "July 11, 2026",
+    highlights: [
+      "Fixes: Tag Team now uses your final-stage handoff prompt, Pi Routing respects your configured confidence threshold, model IDs containing “/” (e.g. OpenRouter) select correctly, and update checks handle pre-release versions.",
+      "New “max” thinking level, on-demand syntax highlighting for faster loads, and an upgrade to Electron 41 + Vite 6 with a hardened in-app updater.",
+    ],
+  },
+  {
     version: "v0.5.4",
     date: "July 9, 2026",
-    latest: true,
     highlights: [
       "New Codex models — GPT-5.6 Luna, Sol, and Terra — are available with your ChatGPT sign-in (via Pi SDK 0.80.5), and Claude Sonnet 5 joins the GitHub Copilot catalog.",
       "Long Codex sessions stay connected: connections rotate before the backend’s 60-minute limit, and the Copilot device-code sign-in no longer appears to hang.",

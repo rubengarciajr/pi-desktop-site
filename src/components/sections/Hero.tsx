@@ -54,7 +54,7 @@ export function Hero() {
             variant="outline"
             className="border-[#14b8a6]/30 bg-[#14b8a6]/10 text-[#5eead4] px-4 py-1.5 text-xs font-medium mb-8"
           >
-            v0.5.4 — Tag Team: Sequential Relay 🔗
+            v0.5.8 — Tag Team: Sequential Relay 🔗
           </Badge>
         </motion.div>
 

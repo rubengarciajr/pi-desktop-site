@@ -6,7 +6,7 @@ const stats = [
   { value: "MIT", label: "Licensed" },
   { value: "Apple Silicon", label: "Native" },
   { value: "7", label: "Built-in Tools" },
-  { value: "Electron 38", label: "Runtime" },
+  { value: "Electron 41", label: "Runtime" },
 ];
 
 export function SocialProof() {
