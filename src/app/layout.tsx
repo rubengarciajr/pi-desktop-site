@@ -15,6 +15,7 @@ const spaceMono = Space_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://pi-desktop.dev"),
   title: "Pi Desktop — The Native Coding Agent for macOS",
   description:
     "A polished, open-source desktop GUI for the Pi coding agent. Launches straight into chat with multi-tab sessions, convert-to-code, built-in web search, custom models, and GitHub integration. No CLI, no Node.js, no setup.",
@@ -33,12 +34,22 @@ export const metadata: Metadata = {
       "Open source and native to macOS. Launches into chat, converts any conversation to a full project session, with built-in web search, multi-tab sessions, custom models, and GitHub integration.",
     type: "website",
     url: "https://pi-desktop.dev",
+    siteName: "Pi Desktop",
+    images: [
+      {
+        url: "/app-starting-screen.png",
+        width: 1268,
+        height: 848,
+        alt: "Pi Desktop — a native macOS GUI for the Pi coding agent, shown at its opening chat screen.",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "Pi Desktop — The Native Coding Agent for macOS",
     description:
       "Open source, native to macOS. Launches into chat, converts to code, built-in web search, multi-tab sessions, and GitHub integration.",
+    images: ["/app-starting-screen.png"],
   },
 };
 
