@@ -12,9 +12,40 @@ type Release = {
 
 const releases: Release[] = [
   {
+    version: "v0.6.2",
+    date: "July 20, 2026",
+    latest: true,
+    highlights: [
+      "Quick presets work again: adding a model from a preset could fail with a 401 because the preset saved a provider without a usable API key — presets now use a stable provider name, and a missing key is caught when you save rather than at the first request.",
+      "Subscription sign-ins update immediately — the xAI and ChatGPT badges flip to Connected the moment you approve the device code, instead of waiting for a restart — and the sign-in dialog now shows the provider’s real name (“Connect xAI (Grok)”).",
+    ],
+  },
+  {
+    version: "v0.6.1",
+    date: "July 17, 2026",
+    highlights: [
+      "Model errors are now visible: when a provider rejects a request or retries run out, Pi Desktop shows the error instead of the turn silently stopping on a frozen “Thinking…”.",
+    ],
+  },
+  {
+    version: "v0.6.0",
+    date: "July 17, 2026",
+    highlights: [
+      "Update and restart in one click: the update banner downloads the new version, installs it in place, and relaunches for you — no more dragging the app to Applications. If auto-install can’t run, it falls back to opening the installer in Finder.",
+      "New models — Kimi K3 and xAI Grok 4.5 — arrive with the Pi SDK 0.80.10 upgrade and appear in the model switcher (⌘M) automatically.",
+      "Modernized the model & auth layer onto the Pi SDK’s unified model runtime, removing the fragile module loader behind the v0.5.6 packaging bug — Pi Routing and Tag Team are more robust in the installed app, and your existing sign-ins carry over.",
+    ],
+  },
+  {
+    version: "v0.5.9",
+    date: "July 13, 2026",
+    highlights: [
+      "Right-click any session to favorite or delete it, and sessions in a favorited folder now show a star indicator on the card so you can spot your favorites at a glance.",
+    ],
+  },
+  {
     version: "v0.5.8",
     date: "July 13, 2026",
-    latest: true,
     highlights: [
       "Pi Routing report card: after every run, a collapsible card shows each team member’s full response, confidence score, and the synthesized briefing — full transparency into what your multi-agent team contributed.",
       "Real-time per-agent progress (“2/3 models responded”), plus a branded status-bar indicator and a pulsing tab icon so you can spot which tab is running multi-agent work.",
