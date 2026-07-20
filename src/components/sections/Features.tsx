@@ -10,17 +10,35 @@ import {
   Cpu,
   Zap,
   Globe,
+  Network,
+  Workflow,
   Infinity as InfinityIcon,
 } from "lucide-react";
 
 const features = [
   {
+    icon: Network,
+    title: "Pi Routing (Mixture of Agents)",
+    description:
+      "A Pi Desktop exclusive. Build a team of models that answer every prompt in parallel, synthesize a briefing, and let your main model build on their combined analysis.",
+    bg: "bg-[#14b8a6]/10",
+    iconColor: "text-[#5eead4]",
+  },
+  {
+    icon: Workflow,
+    title: "Tag Team (Sequential Relay)",
+    description:
+      "A Pi Desktop exclusive. Chain models to work in sequence — the starter builds, then tags the next model to review, improve, and finalize in a fresh tab, automatically.",
+    bg: "bg-[#14b8a6]/10",
+    iconColor: "text-[#5eead4]",
+  },
+  {
     icon: MessageSquare,
     title: "Launches into Chat",
     description:
       "Open the app and start typing — no folder picker, no setup. A Chat / Code toggle switches to full project sessions the moment you need them.",
-    bg: "bg-[#14b8a6]/10",
-    iconColor: "text-[#5eead4]",
+    bg: "bg-[#f9f4eb]/[0.04]",
+    iconColor: "text-[#d6d1c9]",
   },
   {
     icon: Zap,

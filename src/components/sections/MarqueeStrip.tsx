@@ -5,6 +5,8 @@ import { motion, useScroll, useTransform, useSpring } from "framer-motion";
 import { Marquee } from "@/components/shared/Marquee";
 
 const items = [
+  "Pi Routing",
+  "Tag Team",
   "Launches into Chat",
   "Convert to Code",
   "Multi-Tab Sessions",
